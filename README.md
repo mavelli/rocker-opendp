@@ -25,5 +25,5 @@ docker run -d -p 8787:8787 mavelli/rocker-opendp
 ```
 connect to rstudio in a webbrowser at
 ```url
-localhost:8787
+localhost:8787  
 ```
