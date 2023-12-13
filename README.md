@@ -21,7 +21,7 @@ docker pull mavelli/rocker-opendp
 ```
 run a container:
 ```bash
-docker run -d -p 8787:8787 mavelli/rocker-opendp
+docker run -d -e PASSWORD=password -p 8787:8787 mavelli/rocker-opendp
 ```
 connect to rstudio in a webbrowser at
 ```url
