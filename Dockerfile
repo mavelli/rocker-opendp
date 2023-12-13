@@ -3,7 +3,9 @@ MAINTAINER Damir Perisa
 
 RUN apt-get update \
  && apt-get install -y \
-  rustup
+  curl build-essential gcc make
+  
+RUN curl https://sh.rustup.rs -sSf | sh
 
 RUN rustup default stable
 
