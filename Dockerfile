@@ -7,6 +7,4 @@ RUN apt-get update \
   
 RUN sh -c curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain none
 
-RUN sh rustup default stable
-
 RUN Rscript -e "install.packages('opendp', repos = c('https://opendp.r-universe.dev', 'https://cloud.r-project.org'))"
