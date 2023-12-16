@@ -1,6 +1,7 @@
 # rocker-opendp
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![ci](https://github.com/mavelli/rocker-opendp/actions/workflows/main.yml/badge.svg)](https://github.com/mavelli/rocker-opendp/actions/workflows/main.yml)
 
 ## What is inside
 This is a Docker Image for a RStudio environement based on 
