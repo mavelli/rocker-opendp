@@ -7,6 +7,7 @@ RUN apt-get update \
   
 RUN install2.r --error \
   --repos "https://stat.ethz.ch/CRAN/" \
-  DT 
+  DT \
+  binomialDP
   
 RUN Rscript -e "install.packages('opendp', repos = c('https://opendp.r-universe.dev', 'https://cloud.r-project.org'))"
